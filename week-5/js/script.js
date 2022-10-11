@@ -28,7 +28,7 @@ $(() => {
   });
 
   $.ajax({
-    url: 'js/team.json',
+    url: '../team.json',
     type: 'get',
     beforeSend: () => {
       $('#team').html('Loading...');
@@ -36,6 +36,7 @@ $(() => {
   })
     .done((data) => {
       setTimeout(() => {
+        $('#team').html('');
         $.each(data, (i, item) => {
           $('#team').append(
             `<h2>${item.name}</h2><h5>${item.position}</h5><p>${item.bio}</p>`
