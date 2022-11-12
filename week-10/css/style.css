@@ -4,7 +4,14 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+header {
+  padding: 2em;
+}
+footer {
+  padding: 2em;
+  position: absolute;
+  bottom: 0;
+}
 #london-wrapper,
 #windsor-wrapper {
   display: none;
