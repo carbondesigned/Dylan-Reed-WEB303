@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Iron Man",
+    "age": 48,
+    "powers": ["None"],
+    "real_first_name": "Tony",
+    "real_last_name": "Stark",
+    "team": "Avengers"
+  },
+  {
+    "name": "Captain America",
+    "age": 99,
+    "powers": [
+      "Superhuman strength",
+      "Superhuman agility",
+      "Superhuman reflexes",
+      "Superhuman speed",
+      "Superhuman healing",
+      "Superhuman senses"
+    ],
+    "real_first_name": "Steve Rogers",
+    "real_last_name": "",
+    "team": "Avengers"
+  },
+  {
+    "name": "Thor",
+    "age": 1500,
+    "powers": [
+      "Superhuman strength",
+      "Superhuman speed",
+      "Superhuman healing",
+      "Superhuman senses",
+      "Superhuman flight",
+      "Superhuman lightning manipulation",
+      "Superhuman magic"
+    ],
+    "real_first_name": "Thor",
+    "real_last_name": "Odinson",
+    "team": "Avengers"
+  },
+  {
+    "name": "Hulk",
+    "age": 49,
+    "powers": [
+      "Superhuman strength",
+      "Superhuman agility",
+      "Superhuman reflexes",
+      "Superhuman durability",
+      "Superhuman endurance",
+      "Superhuman speed",
+      "Superhuman healing",
+      "Superhuman senses",
+      "Superhuman regeneration"
+    ],
+    "real_first_name": "Bruce",
+    "real_last_name": "Banner",
+    "team": "Avengers"
+  },
+  {
+    "name": "Black Widow",
+    "age": 35,
+    "powers": ["None"],
+    "real_first_name": "Natasha",
+    "real_last_name": "Romanoff",
+    "team": "Avengers"
+  },
+  {
+    "name": "Hawkeye",
+    "age": 35,
+    "powers": ["None"],
+    "real_first_name": "Clint",
+    "real_last_name": "Barton",
+    "team": "Avengers"
+  },
+  {
+    "name": " Vision",
+    "age": 35,
+    "powers": [
+      "Superhuman strength",
+      "Superhuman agility",
+      "Superhuman reflexes",
+      "Superhuman flight",
+      "Superhuman energy manipulation",
+      "Superhuman magic"
+    ],
+    "real_first_name": "Victor",
+    "real_last_name": "Shade",
+    "team": "Avengers"
+  }
+]
