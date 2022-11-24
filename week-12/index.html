@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js" defer></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
+
+    <style>
+      body {
+        padding: 0 5em;
+      }
+      table {
+        position: relative;
+      }
+      th {
+        text-align: left;
+      }
+      td,
+      th {
+        padding: 0 1em;
+      }
+
+      .sort-asc:after {
+        content: '▲';
+        position: absolute;
+        left: -1em;
+      }
+
+      .sort-desc:after {
+        content: '▼';
+        position: absolute;
+        left: -1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Dylan Reed | Avengers: Endgame</h1>
+    <table id="characters"></table>
+  </body>
+</html>
