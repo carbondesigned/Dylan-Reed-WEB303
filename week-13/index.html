@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Dylan Reed</h1>
+
+    <form id="register-form" action="/register">
+      <div class="field-container">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+      </div>
+
+      <div class="field-container">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <div class="field-container">
+        <label for="password-confirm">Confirm Password</label>
+        <input type="password" name="password-confirm" id="password-confirm" />
+      </div>
+
+      <div class="field-container">
+        <label for="terms">I Accept the Terms of Service</label>
+        <input type="checkbox" name="terms" id="terms" />
+      </div>
+
+      <div class="field-container">
+        <label for="countries">Countries</label>
+        <select name="countries" id="countries"></select>
+      </div>
+
+      <div>
+        <input id="submit-btn" type="submit" value="Submit" disabled />
+      </div>
+    </form>
+
+    <div id="welcome-message"></div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
